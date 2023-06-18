@@ -1,25 +1,60 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap);
 
 body{
+    font-family: 'Roboto Mono', monospace;
     background-color: #512D38;
     display: flex;
     justify-content: center;
     padding-top: 50%;
 }
 
+.tWriter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .tWriter h1{
     color: #FFE9F3;
-    font-family: 'Roboto Mono', monospace;
     overflow: hidden;
     border-right: 0.20rem solid #F4BFDB;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.15rem;
     user-select: none;
-    animation: typing 5s steps(30, end) infinite, blink-line 0.5s step-end infinite;
+    animation: typing-h1 4s steps(40, end), blink-line 0.5s step-end infinite;
 }
 
-@keyframes typing{
+.tWriter h1.finished{
+    border-right: none; 
+}
+
+.tWriter .tWriter2 h2{
+    color: #F0D3F7;
+    overflow: hidden;
+    border-right: 0.20rem solid #F4BFDB;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15rem;
+    user-select: none;
+    opacity: 0;
+    animation: typing-h2 4s steps(40, end), blink-line 0.5s step-end infinite;
+
+}
+.tWriter .tWriter2.start-typing h2{
+    opacity: 1;
+}
+
+@keyframes typing-h1{
+    from{
+        width: 0;
+    } to{
+        width: 100%;
+    }
+}
+
+@keyframes typing-h2{
     from{
         width: 0;
     } to{
