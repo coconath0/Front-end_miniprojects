@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap);
+
+body{
+    background-color: #512D38;
+    display: flex;
+    justify-content: center;
+    padding-top: 50%;
+
+}
+
+.tWriter h1{
+    color: #FFE9F3;
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+    border-right: 0.20rem solid #F4BFDB;
+    white-space: nowrap;
+    margin: 0 auto;
+
+}
