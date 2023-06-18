@@ -5,7 +5,6 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 50%;
-
 }
 
 .tWriter h1{
@@ -15,5 +14,23 @@ body{
     border-right: 0.20rem solid #F4BFDB;
     white-space: nowrap;
     margin: 0 auto;
+    letter-spacing: 0.15rem;
+    user-select: none;
+    animation: typing 5s steps(30, end) infinite, blink-line 0.5s step-end infinite;
+}
 
+@keyframes typing{
+    from{
+        width: 0;
+    } to{
+        width: 100%;
+    }
+}
+
+@keyframes blink-line{
+    from, to{
+        border-color: transparent;
+    } 50% {
+        border-color: #B27092;
+    }
 }
