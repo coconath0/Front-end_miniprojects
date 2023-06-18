@@ -22,7 +22,7 @@ body{
 
 .tWriter2 ::selection{
     background-color: #B27092;
-    color: #512D38;
+    color: #FFFFFF;
 }
 
 .tWriter h1{
@@ -49,7 +49,7 @@ body{
     letter-spacing: 0.15rem;
     /* user-select: none; */
     opacity: 0;
-    animation: typing-h2 4s steps(40, end), blink-line 0.5s step-end infinite;
+    animation: typing-h2 4s steps(50, end), blink-line 0.5s step-end infinite;
 
 }
 .tWriter .tWriter2.start-typing h2{
