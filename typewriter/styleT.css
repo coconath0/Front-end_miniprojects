@@ -15,6 +15,16 @@ body{
     text-align: center;
 }
 
+.tWriter ::selection{
+    background-color: #F0D3F7;
+    color: #512D38;
+}
+
+.tWriter2 ::selection{
+    background-color: #B27092;
+    color: #512D38;
+}
+
 .tWriter h1{
     color: #FFE9F3;
     overflow: hidden;
@@ -22,7 +32,7 @@ body{
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.15rem;
-    user-select: none;
+    /* user-select: none; */
     animation: typing-h1 4s steps(40, end), blink-line 0.5s step-end infinite;
 }
 
@@ -37,7 +47,7 @@ body{
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.15rem;
-    user-select: none;
+    /* user-select: none; */
     opacity: 0;
     animation: typing-h2 4s steps(40, end), blink-line 0.5s step-end infinite;
 
