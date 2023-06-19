@@ -1,3 +1,5 @@
+/* Although it might say there is an error, it works like this :) */
+
 particlesJS({
   "fpsLimit":60,
   "particles": {
