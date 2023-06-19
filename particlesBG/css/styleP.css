@@ -3,9 +3,30 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
+body {
     font-family: 'Pathway Extreme', sans-serif;
+/*     display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.particles-css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.particles-css ::selection{
+    background-color: #bbd9d8;
+    color: #1e413f;
+}
+
+.particles-css2 ::selection{
+    background-color: #1e413f;
+    color: #fff;
 }
 
 .particles-css h1{
@@ -13,6 +34,15 @@ body{
     color: #376361;
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.particles-css .particles-css2 h2{
+    font-size: 20px;
+    color: #376361;
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

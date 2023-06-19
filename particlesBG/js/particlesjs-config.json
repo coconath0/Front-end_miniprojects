@@ -1,10 +1,8 @@
-/* Although it might say there is an error, it works like this :) */
-
 particlesJS({
   "fpsLimit":60,
   "particles": {
     "number": {
-      "value": 25,
+      "value": 30,
       "density": {
         "enable": true,
         "value_area": 1500
