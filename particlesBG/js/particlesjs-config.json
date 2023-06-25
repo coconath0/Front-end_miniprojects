@@ -2,10 +2,10 @@ particlesJS({
   "fpsLimit":60,
   "particles": {
     "number": {
-      "value": 30,
+      "value": 20,
       "density": {
         "enable": true,
-        "value_area": 1500
+        "value_area": 1600
       }
     },
     "color": {
@@ -37,7 +37,7 @@ particlesJS({
       }
     },
     "size": {
-      "value": 15,
+      "value": 30,
       "random": true,
       "anim": {
         "enable": false,
@@ -50,8 +50,8 @@ particlesJS({
       "enable": true,
       "distance": 250,
       "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
+      "opacity": 0.5,
+      "width": 1.5
     },
     "move": {
       "enable": true,
